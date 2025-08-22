@@ -1,3 +1,3 @@
-python -m pytest --html=escola/doc_teste.html
+python -m pytest --html=juros/doc_teste.html
 
-python -m pytest --cov=escola/aluno.py --cov-report-html
+python -m pytest --cov=juros/juros_composto.py --cov-report-html
