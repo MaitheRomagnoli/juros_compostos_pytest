@@ -26,7 +26,7 @@ def test_verifica_negativo():
     # quando o tempo for negativo
     with pytest.raises(ValueError, match="O tempo não pode ser negativo."):
         calcular_juros_compostos(1000, 20, -1)
-    
+
 
 def test_verifica_string():
     with pytest.raises(ValueError, match="O capital investido deve ser um número (int ou float).")
